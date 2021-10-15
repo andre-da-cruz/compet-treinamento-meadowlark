@@ -6,9 +6,29 @@ git init
 
 #criar arquivo .gitignore para cadastrar arquivos ignorados pelo git
 
+#definir um nome e email de usuario do git
+git config --global user.name "André da Cruz"
+git config --global user.email "andrercruz@gmail.com"
+
+#credenciais do github no git
+#instalar github cli de https://github.com/cli/cli#installation
+#https://garywoodfine.com/how-to-install-github-cli-on-linux/
+Na linha de comando, digite 'gh auth login' e, em seguida, siga as instruções.
+Quando for solicitado o protocolo preferido para operações do Git, selecione HTTPS.
+Quando for perguntado se você gostaria de efetuar a autenticação no Git com as suas credenciais de GitHub, insira Y.
+
+#criar projeto no github
+gh repo create nome-do-projeto
+
 #adicionar uma modificacao de arquivo
 git add nome-do-arquivo
 
 #adicionar modificacoes de todos os arquivos do projeto
 git add -A
+
+#lista status do projeto no git
+git status
+
+#salva (comita) as modificaoes adicionadas
+git commit -m "Mensagem do commit"
 
