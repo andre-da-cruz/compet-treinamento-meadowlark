@@ -32,3 +32,6 @@ git status
 #salva (comita) as modificaoes adicionadas
 git commit -m "Mensagem do commit"
 
+#push das alteracoes para o branch
+git push --set-upstream origin HEAD
+git push
