@@ -1,0 +1,14 @@
+#versao instalada
+git --version
+
+#inicializa repositorio vazio git
+git init
+
+#criar arquivo .gitignore para cadastrar arquivos ignorados pelo git
+
+#adicionar uma modificacao de arquivo
+git add nome-do-arquivo
+
+#adicionar modificacoes de todos os arquivos do projeto
+git add -A
+
